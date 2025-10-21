@@ -19,8 +19,8 @@ find_package(OpenGL REQUIRED)
 find_package(GLEW REQUIRED)
 #find_package(GLFW REQUIRED)
 
-add_executable(opengl_app main.cpp)
-target_link_libraries(opengl_app PRIVATE OpenGL::GL GLEW::GLEW glfw )
+add_executable(opengl_triangle main.cpp)
+target_link_libraries(opengl_triangle PRIVATE OpenGL::GL GLEW::GLEW glfw )
 
 find_package(Threads REQUIRED)
-target_link_libraries(opengl_app PRIVATE Threads::Threads)
+target_link_libraries(opengl_triangle PRIVATE Threads::Threads)
