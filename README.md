@@ -7,3 +7,5 @@ This is meant as a very simple test of OpenGL capabilities and color accuracy.
 
 In this CMake project, there is:
 * A version for desktop, that links with Desktop OpenGL, GLEW, and GLFW libs.
+* A separate version for GL ES + EGL for VxWorks, using the Vivante OpenGL ES
+  libraries.
